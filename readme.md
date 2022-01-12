@@ -271,5 +271,5 @@ But let's re-deploy to Google:
 $ gcloud run deploy datadog-dadjokes --source .
 ```
 
-We should see our events showing up on our dashboard at https://app.datadoghq.com/event/explorer
+We should see our events showing up on our dashboard at https://app.datadoghq.com/event/explorer when we access our web application on Google Cloud, and our remote IP address should show up as part of the event.
 
